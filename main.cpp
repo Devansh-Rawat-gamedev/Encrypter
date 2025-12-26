@@ -5,7 +5,7 @@
 #include "./src/app/processes/Task.hpp"
 namespace fs = std::filesystem;
 
-int main(int argc){
+int main(int argc, char* argv[]){
     std::string directory;
     std::string action;
     std::cout<<"Enter directory path: "<<std::endl;
